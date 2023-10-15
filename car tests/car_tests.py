@@ -1,7 +1,9 @@
 import pytest
 from car import Car
 
-
+"""
+File with unittests of car
+"""
 @pytest.fixture
 def car():
     return Car("Toyota", "Camry", 100)
